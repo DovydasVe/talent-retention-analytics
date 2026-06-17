@@ -4,10 +4,8 @@ A data-driven HR analytics and predictive modeling project designed for **ABS Te
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
-*   [ABS Tech Case 2026_Data.xlsx](file:///c:/Users/dovyd/OneDrive/Desktop/University/Year%202/HR%20analytics/ABS%20Tech%20Case%202026_Data.xlsx) – Raw Excel sheet containing employee metadata, performance reviews, demographic information, and engagement surveys.
-*   [Cleaned_ABS_Tech_Case_2026_Data.xlsx](file:///c:/Users/dovyd/OneDrive/Desktop/University/Year%202/HR%20analytics/Cleaned_ABS_Tech_Case_2026_Data.xlsx) – The preprocessed and standard-scaled dataset ready for statistical tests and modeling.
 *   [Preprocessing.py](file:///c:/Users/dovyd/OneDrive/Desktop/University/Year%202/HR%20analytics/Preprocessing.py) – Automated Python script to clean categorical text columns and scale numerical features using `StandardScaler`.
 *   [Turnover_analysis.ipynb](file:///c:/Users/dovyd/OneDrive/Desktop/University/Year%202/HR%20analytics/Turnover_analysis.ipynb) – Jupyter notebook examining macro turnover trends over time, self-reported exit reasons, and statistical hypothesis testing (e.g., t-tests/chi-square) to find features significant to attrition.
 *   [Talent_analysis.ipynb](file:///c:/Users/dovyd/OneDrive/Desktop/University/Year%202/HR%20analytics/Talent_analysis.ipynb) – Jupyter notebook establishing a weighted formula to calculate a composite **Talent Score** (based on technical, personal, and interpersonal aspects) and analyzing recruitment sources.
@@ -17,7 +15,7 @@ A data-driven HR analytics and predictive modeling project designed for **ABS Te
 
 ---
 
-## 📈 Methodology & Analytical Pipeline
+## Methodology & Analytical Pipeline
 
 1.  **Data Preprocessing & Scaling**: Normalized features such as survey responses, absences, training hours, and performance scores using `StandardScaler` to ensure unbiased learning.
 2.  **Talent Definition (Feature Engineering)**: Developed a weighted formula categorized as follows:
